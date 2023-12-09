@@ -1,0 +1,1054 @@
+[21/11/2023 10:21:58]: config file dont exist!
+[21/11/2023 10:21:58]: version:	
+[21/11/2023 10:21:58]: MongoDB:	
+[21/11/2023 10:23:20]: version:	1.7
+[21/11/2023 10:23:20]: MongoDB:	mongodb://localhost:27017
+[21/11/2023 10:23:21]: Database:	DataLogger
+[21/11/2023 10:23:23]: API port:	8888
+[21/11/2023 10:23:23]: Hostname:	*
+[21/11/2023 10:41:39]: version:	1.7
+[21/11/2023 10:41:39]: MongoDB:	mongodb://localhost:27017
+[21/11/2023 10:41:39]: Database:	DataLogger
+[21/11/2023 10:41:39]: API port:	8888
+[21/11/2023 10:41:39]: Hostname:	*
+[21/11/2023 16:23:40]: version:	1.7
+[21/11/2023 16:23:40]: MongoDB:	mongodb://localhost:27017
+[21/11/2023 16:23:40]: Database:	DataLogger
+[21/11/2023 16:23:40]: API port:	8888
+[21/11/2023 16:23:40]: Hostname:	*
+[21/11/2023 16:27:05]: version:	1.7
+[21/11/2023 16:27:05]: MongoDB:	mongodb://localhost:27017
+[21/11/2023 16:27:06]: Database:	DataLogger
+[21/11/2023 16:27:07]: API port:	8888
+[21/11/2023 16:27:07]: Hostname:	*
+[22/11/2023 02:50:46]: version:	1.7
+[22/11/2023 02:50:46]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 02:50:47]: Database:	DataLogger
+[22/11/2023 02:50:48]: API port:	8888
+[22/11/2023 02:50:48]: Hostname:	*
+[22/11/2023 03:04:37]: version:	1.7
+[22/11/2023 03:04:37]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 03:04:37]: Database:	DataLogger
+[22/11/2023 03:04:38]: API port:	8888
+[22/11/2023 03:04:38]: Hostname:	*
+[22/11/2023 03:06:29]: version:	1.7
+[22/11/2023 03:06:29]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 03:06:30]: Database:	DataLogger
+[22/11/2023 03:06:30]: API port:	8888
+[22/11/2023 03:06:30]: Hostname:	*
+[22/11/2023 03:07:35]: version:	1.7
+[22/11/2023 03:07:35]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 03:07:35]: Database:	DataLogger
+[22/11/2023 03:07:36]: API port:	8888
+[22/11/2023 03:07:36]: Hostname:	*
+[22/11/2023 03:14:44]: version:	1.7
+[22/11/2023 03:14:44]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 03:14:45]: Database:	DataLogger
+[22/11/2023 03:14:46]: API port:	8888
+[22/11/2023 03:14:46]: Hostname:	*
+[22/11/2023 03:20:33]: API: api/DataAPI/ReadDeviceDataByDayInput -> Value cannot be null. (Parameter 'key')
+[22/11/2023 03:26:08]: version:	1.7
+[22/11/2023 03:26:08]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 03:26:08]: Database:	DataLogger
+[22/11/2023 03:26:10]: API port:	8888
+[22/11/2023 03:26:10]: Hostname:	*
+[22/11/2023 03:26:58]: version:	1.7
+[22/11/2023 03:26:58]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 03:26:59]: Database:	DataLogger
+[22/11/2023 03:26:59]: API port:	8888
+[22/11/2023 03:26:59]: Hostname:	*
+[22/11/2023 03:51:00]: version:	1.7
+[22/11/2023 03:51:00]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 03:51:00]: Database:	DataLogger
+[22/11/2023 03:51:02]: API port:	8888
+[22/11/2023 03:51:02]: Hostname:	*
+[22/11/2023 04:00:22]: version:	1.7
+[22/11/2023 04:00:22]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 04:00:23]: Database:	DataLogger
+[22/11/2023 04:00:24]: API port:	8888
+[22/11/2023 04:00:24]: Hostname:	*
+[22/11/2023 04:00:29]: MongoDB.Driver.MongoCommandException: Command create failed: A timeseries collection already exists. NS: DataLogger.c45bbeafa684.
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ProcessResponse(ConnectionId connectionId, CommandMessage responseMessage)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.WireProtocol.CommandWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocol[TResult](IWireProtocol`1 protocol, ICoreSession session, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.Command[TResult](ICoreSession session, ReadPreference readPreference, DatabaseNamespace databaseNamespace, BsonDocument command, IEnumerable`1 commandPayloads, IElementNameValidator commandValidator, BsonDocument additionalOptions, Action`1 postWriteAction, CommandResponseHandling responseHandling, IBsonSerializer`1 resultSerializer, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.CommandOperationBase`1.ExecuteProtocol(IChannelHandle channel, ICoreSessionHandle session, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.CommandOperationBase`1.ExecuteProtocol(IChannelSource channelSource, ICoreSessionHandle session, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.WriteCommandOperation`1.Execute(IWriteBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.CreateCollectionOperation.Execute(IWriteBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteWriteOperation[TResult](IWriteBinding binding, IWriteOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoDatabaseImpl.ExecuteWriteOperation[T](IClientSessionHandle session, IWriteOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoDatabaseImpl.CreateCollection(IClientSessionHandle session, String name, CreateCollectionOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoDatabaseImpl.<>c__DisplayClass21_0.<CreateCollection>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoDatabaseImpl.UsingImplicitSession(Action`1 func, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoDatabaseImpl.CreateCollection(String name, CreateCollectionOptions options, CancellationToken cancellationToken)
+   at DataLogger_NetCore.Class.DeviceData..ctor(String device_id) in D:\AIThings_White_Backend\DataLogger_NetCore\Class\DeviceData.cs:line 46
+   at DataLogger_NetCore.Class.DeviceData.getDevice(String id) in D:\AIThings_White_Backend\DataLogger_NetCore\Class\DeviceData.cs:line 36
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 112
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[22/11/2023 04:06:04]: version:	1.7
+[22/11/2023 04:06:04]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 04:06:05]: Database:	DataLogger
+[22/11/2023 04:06:06]: API port:	8888
+[22/11/2023 04:06:06]: Hostname:	*
+[22/11/2023 04:06:39]: version:	1.7
+[22/11/2023 04:06:39]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 04:06:39]: Database:	DataLogger
+[22/11/2023 04:06:40]: API port:	8888
+[22/11/2023 04:06:40]: Hostname:	*
+[22/11/2023 04:10:34]: version:	1.7
+[22/11/2023 04:10:34]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 04:10:35]: Database:	DataLogger
+[22/11/2023 04:10:36]: API port:	8888
+[22/11/2023 04:10:36]: Hostname:	*
+[22/11/2023 04:12:36]: version:	1.7
+[22/11/2023 04:12:36]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 04:12:36]: Database:	DataLogger
+[22/11/2023 04:12:37]: API port:	8888
+[22/11/2023 04:12:37]: Hostname:	*
+[22/11/2023 06:00:06]: version:	1.7
+[22/11/2023 06:00:06]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 06:00:06]: Database:	DataLogger
+[22/11/2023 06:00:08]: API port:	8888
+[22/11/2023 06:00:08]: Hostname:	*
+[22/11/2023 08:31:01]: version:	1.7
+[22/11/2023 08:31:01]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:31:01]: Database:	DataLogger
+[22/11/2023 08:31:02]: API port:	8888
+[22/11/2023 08:31:02]: Hostname:	*
+[22/11/2023 08:31:52]: version:	1.7
+[22/11/2023 08:31:52]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:31:52]: Database:	DataLogger
+[22/11/2023 08:31:53]: API port:	8888
+[22/11/2023 08:31:53]: Hostname:	*
+[22/11/2023 08:32:19]: version:	1.7
+[22/11/2023 08:32:19]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:32:19]: Database:	DataLogger
+[22/11/2023 08:32:21]: API port:	8888
+[22/11/2023 08:32:21]: Hostname:	*
+[22/11/2023 08:32:34]: version:	1.7
+[22/11/2023 08:32:34]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:32:34]: Database:	DataLogger
+[22/11/2023 08:32:36]: API port:	8888
+[22/11/2023 08:32:36]: Hostname:	*
+[22/11/2023 08:32:58]: version:	1.7
+[22/11/2023 08:32:58]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:32:58]: Database:	DataLogger
+[22/11/2023 08:32:59]: API port:	8888
+[22/11/2023 08:32:59]: Hostname:	*
+[22/11/2023 08:33:13]: version:	1.7
+[22/11/2023 08:33:13]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:33:14]: Database:	DataLogger
+[22/11/2023 08:33:15]: API port:	8888
+[22/11/2023 08:33:15]: Hostname:	*
+[22/11/2023 08:33:58]: version:	1.7
+[22/11/2023 08:33:58]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:33:58]: Database:	DataLogger
+[22/11/2023 08:34:07]: API port:	8888
+[22/11/2023 08:34:07]: Hostname:	*
+[22/11/2023 08:34:36]: version:	1.7
+[22/11/2023 08:34:36]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:34:36]: Database:	DataLogger
+[22/11/2023 08:34:52]: API port:	8888
+[22/11/2023 08:34:52]: Hostname:	*
+[22/11/2023 08:35:11]: version:	1.7
+[22/11/2023 08:35:11]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:35:11]: Database:	DataLogger
+[22/11/2023 08:35:29]: API port:	8888
+[22/11/2023 08:35:29]: Hostname:	*
+[22/11/2023 08:35:43]: version:	1.7
+[22/11/2023 08:35:43]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:35:43]: Database:	DataLogger
+[22/11/2023 08:36:00]: API port:	8888
+[22/11/2023 08:36:00]: Hostname:	*
+[22/11/2023 08:36:12]: version:	1.7
+[22/11/2023 08:36:12]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:36:12]: Database:	DataLogger
+[22/11/2023 08:36:29]: API port:	8888
+[22/11/2023 08:36:29]: Hostname:	*
+[22/11/2023 08:49:40]: version:	1.7
+[22/11/2023 08:49:40]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:49:41]: Database:	DataLogger
+[22/11/2023 08:49:41]: API port:	8888
+[22/11/2023 08:49:41]: Hostname:	*
+[22/11/2023 08:50:57]: API: api/DataAPI/ReadDeviceDataByDayInput -> Year, Month, and Day parameters describe an un-representable DateTime.
+[22/11/2023 08:54:23]: version:	1.7
+[22/11/2023 08:54:23]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:54:23]: Database:	DataLogger
+[22/11/2023 08:54:24]: API port:	8888
+[22/11/2023 08:54:24]: Hostname:	*
+[22/11/2023 08:55:13]: API: api/DataAPI/ReadDeviceDataByDayInput -> Year, Month, and Day parameters describe an un-representable DateTime.
+[22/11/2023 08:57:27]: version:	1.7
+[22/11/2023 08:57:27]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:57:27]: Database:	DataLogger
+[22/11/2023 08:57:27]: API port:	8888
+[22/11/2023 08:57:27]: Hostname:	*
+[22/11/2023 08:59:00]: version:	1.7
+[22/11/2023 08:59:00]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:59:00]: Database:	DataLogger
+[22/11/2023 08:59:01]: API port:	8888
+[22/11/2023 08:59:01]: Hostname:	*
+[22/11/2023 08:59:17]: version:	1.7
+[22/11/2023 08:59:17]: MongoDB:	mongodb://localhost:27017
+[22/11/2023 08:59:18]: Database:	DataLogger
+[22/11/2023 08:59:19]: API port:	8888
+[22/11/2023 08:59:19]: Hostname:	*
+[23/11/2023 08:20:18]: version:	1.7
+[23/11/2023 08:20:18]: MongoDB:	mongodb://localhost:27017
+[23/11/2023 08:20:19]: Database:	DataLogger
+[23/11/2023 08:20:21]: API port:	8888
+[23/11/2023 08:20:21]: Hostname:	*
+[23/11/2023 08:30:52]: version:	1.7
+[23/11/2023 08:30:52]: MongoDB:	mongodb://localhost:27017
+[23/11/2023 08:30:52]: Database:	DataLogger
+[23/11/2023 08:30:54]: API port:	8888
+[23/11/2023 08:30:54]: Hostname:	*
+[23/11/2023 08:34:05]: version:	1.7
+[23/11/2023 08:34:05]: MongoDB:	mongodb://localhost:27017
+[23/11/2023 08:34:05]: Database:	DataLogger
+[23/11/2023 08:34:06]: API port:	8888
+[23/11/2023 08:34:06]: Hostname:	*
+[23/11/2023 08:43:44]: version:	1.7
+[23/11/2023 08:43:44]: MongoDB:	mongodb://localhost:27017
+[23/11/2023 08:43:44]: Database:	DataLogger
+[23/11/2023 08:43:46]: API port:	8888
+[23/11/2023 08:43:46]: Hostname:	*
+[24/11/2023 10:59:07]: version:	1.7
+[24/11/2023 10:59:07]: MongoDB:	mongodb://localhost:27017
+[24/11/2023 10:59:07]: Database:	DataLogger
+[24/11/2023 10:59:08]: API port:	8888
+[24/11/2023 10:59:08]: Hostname:	*
+[24/11/2023 11:01:00]: version:	1.7
+[24/11/2023 11:01:00]: MongoDB:	mongodb://localhost:27017
+[24/11/2023 11:01:00]: Database:	DataLogger
+[24/11/2023 11:01:01]: API port:	8888
+[24/11/2023 11:01:01]: Hostname:	*
+[24/11/2023 11:01:15]: version:	1.7
+[24/11/2023 11:01:15]: MongoDB:	mongodb://localhost:27017
+[24/11/2023 11:01:15]: Database:	DataLogger
+[24/11/2023 11:01:16]: API port:	8888
+[24/11/2023 11:01:16]: Hostname:	*
+[30/11/2023 08:40:29]: version:	1.7
+[30/11/2023 08:40:29]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:40:30]: Database:	DataLogger
+[30/11/2023 08:40:30]: API port:	8888
+[30/11/2023 08:40:30]: Hostname:	*
+[30/11/2023 08:41:38]: version:	1.7
+[30/11/2023 08:41:38]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:41:38]: Database:	DataLogger
+[30/11/2023 08:41:39]: API port:	8888
+[30/11/2023 08:41:39]: Hostname:	*
+[30/11/2023 08:41:57]: version:	1.7
+[30/11/2023 08:41:57]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:41:57]: Database:	DataLogger
+[30/11/2023 08:41:57]: API port:	8888
+[30/11/2023 08:41:57]: Hostname:	*
+[30/11/2023 08:44:26]: version:	1.7
+[30/11/2023 08:44:26]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:44:27]: Database:	DataLogger
+[30/11/2023 08:44:27]: API port:	8888
+[30/11/2023 08:44:27]: Hostname:	*
+[30/11/2023 08:47:18]: version:	1.7
+[30/11/2023 08:47:18]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:47:18]: Database:	DataLogger
+[30/11/2023 08:47:20]: API port:	8888
+[30/11/2023 08:47:20]: Hostname:	*
+[30/11/2023 08:48:00]: version:	1.7
+[30/11/2023 08:48:00]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:48:01]: Database:	DataLogger
+[30/11/2023 08:48:02]: API port:	8888
+[30/11/2023 08:48:02]: Hostname:	*
+[30/11/2023 08:48:24]: version:	1.7
+[30/11/2023 08:48:24]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:48:24]: Database:	DataLogger
+[30/11/2023 08:48:25]: API port:	8888
+[30/11/2023 08:48:25]: Hostname:	*
+[30/11/2023 08:49:42]: version:	1.7
+[30/11/2023 08:49:42]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:49:42]: Database:	DataLogger
+[30/11/2023 08:49:43]: API port:	8888
+[30/11/2023 08:49:43]: Hostname:	*
+[30/11/2023 08:50:40]: version:	1.7
+[30/11/2023 08:50:40]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:50:40]: Database:	DataLogger
+[30/11/2023 08:50:40]: API port:	8888
+[30/11/2023 08:50:40]: Hostname:	*
+[30/11/2023 08:52:04]: version:	1.7
+[30/11/2023 08:52:04]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:52:04]: Database:	DataLogger
+[30/11/2023 08:52:05]: API port:	8888
+[30/11/2023 08:52:05]: Hostname:	*
+[30/11/2023 08:55:11]: version:	1.7
+[30/11/2023 08:55:11]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:55:12]: Database:	DataLogger
+[30/11/2023 08:55:13]: API port:	8888
+[30/11/2023 08:55:13]: Hostname:	*
+[30/11/2023 08:55:30]: version:	1.7
+[30/11/2023 08:55:30]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:55:31]: Database:	DataLogger
+[30/11/2023 08:55:32]: API port:	8888
+[30/11/2023 08:55:32]: Hostname:	*
+[30/11/2023 08:57:34]: version:	1.7
+[30/11/2023 08:57:34]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:57:34]: Database:	DataLogger
+[30/11/2023 08:57:36]: API port:	8888
+[30/11/2023 08:57:36]: Hostname:	*
+[30/11/2023 08:59:57]: version:	1.7
+[30/11/2023 08:59:57]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 08:59:58]: Database:	DataLogger
+[30/11/2023 08:59:58]: API port:	8888
+[30/11/2023 08:59:58]: Hostname:	*
+[30/11/2023 09:00:17]: version:	1.7
+[30/11/2023 09:00:17]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 09:00:17]: Database:	DataLogger
+[30/11/2023 09:00:17]: API port:	8888
+[30/11/2023 09:00:17]: Hostname:	*
+[30/11/2023 09:00:25]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 09:29:43]: version:	1.7
+[30/11/2023 09:29:43]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 09:29:44]: Database:	DataLogger
+[30/11/2023 09:29:45]: API port:	8888
+[30/11/2023 09:29:45]: Hostname:	*
+[30/11/2023 09:29:51]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 09:32:43]: version:	1.7
+[30/11/2023 09:32:43]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 09:32:44]: Database:	DataLogger
+[30/11/2023 09:32:45]: API port:	8888
+[30/11/2023 09:32:45]: Hostname:	*
+[30/11/2023 09:35:19]: MQTTnet.Exceptions.MqttCommunicationException: The client is not connected.
+   at MQTTnet.Client.MqttClient.ThrowNotConnected()
+   at MQTTnet.Client.MqttClient.PublishAsync(MqttApplicationMessage applicationMessage, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishBinaryAsync(IMqttClient mqttClient, String topic, IEnumerable`1 payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishStringAsync(IMqttClient mqttClient, String topic, String payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at DataLogger_NetCore.MQTT.HandleMQTT.sendCommand(String device_id, String command) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 199
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 120
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 09:45:04]: version:	1.7
+[30/11/2023 09:45:04]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 09:45:04]: Database:	DataLogger
+[30/11/2023 09:45:05]: API port:	8888
+[30/11/2023 09:45:05]: Hostname:	*
+[30/11/2023 09:45:30]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 09:47:26]: version:	1.7
+[30/11/2023 09:47:26]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 09:47:26]: Database:	DataLogger
+[30/11/2023 09:47:28]: API port:	8888
+[30/11/2023 09:47:28]: Hostname:	*
+[30/11/2023 09:47:36]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 09:49:10]: version:	1.7
+[30/11/2023 09:49:10]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 09:49:10]: Database:	DataLogger
+[30/11/2023 09:49:11]: API port:	8888
+[30/11/2023 09:49:11]: Hostname:	*
+[30/11/2023 09:49:16]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 09:51:07]: MQTTnet.Exceptions.MqttCommunicationException: The client is not connected.
+   at MQTTnet.Client.MqttClient.ThrowNotConnected()
+   at MQTTnet.Client.MqttClient.PublishAsync(MqttApplicationMessage applicationMessage, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishBinaryAsync(IMqttClient mqttClient, String topic, IEnumerable`1 payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishStringAsync(IMqttClient mqttClient, String topic, String payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at DataLogger_NetCore.MQTT.HandleMQTT.sendCommand(String device_id, String command) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 199
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 120
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 09:55:07]: version:	1.7
+[30/11/2023 09:55:07]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 09:55:08]: Database:	DataLogger
+[30/11/2023 09:55:09]: API port:	8888
+[30/11/2023 09:55:09]: Hostname:	*
+[30/11/2023 09:55:20]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 09:57:52]: version:	1.7
+[30/11/2023 09:57:52]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 09:57:52]: Database:	DataLogger
+[30/11/2023 09:57:53]: API port:	8888
+[30/11/2023 09:57:53]: Hostname:	*
+[30/11/2023 09:58:01]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 15:11:11]: version:	1.7
+[30/11/2023 15:11:11]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 15:11:11]: Database:	DataLogger
+[30/11/2023 15:11:13]: API port:	8888
+[30/11/2023 15:11:13]: Hostname:	*
+[30/11/2023 16:05:47]: version:	1.7
+[30/11/2023 16:05:47]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 16:05:48]: Database:	DataLogger
+[30/11/2023 16:05:52]: API port:	8888
+[30/11/2023 16:05:52]: Hostname:	*
+[30/11/2023 16:06:32]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 16:07:53]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 16:08:57]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 16:10:07]: version:	1.7
+[30/11/2023 16:10:07]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 16:10:08]: Database:	DataLogger
+[30/11/2023 16:10:10]: API port:	8888
+[30/11/2023 16:10:10]: Hostname:	*
+[30/11/2023 16:10:39]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 16:12:50]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[30/11/2023 16:14:22]: version:	1.7
+[30/11/2023 16:14:22]: MongoDB:	mongodb://localhost:27017
+[30/11/2023 16:14:23]: Database:	DataLogger
+[30/11/2023 16:14:25]: API port:	8888
+[30/11/2023 16:14:25]: Hostname:	*
+[30/11/2023 16:14:52]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 08:21:16]: version:	1.7
+[01/12/2023 08:21:16]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 08:21:17]: Database:	DataLogger
+[01/12/2023 08:21:18]: API port:	8888
+[01/12/2023 08:21:18]: Hostname:	*
+[01/12/2023 08:40:02]: version:	1.7
+[01/12/2023 08:40:02]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 08:40:04]: Database:	DataLogger
+[01/12/2023 08:40:07]: API port:	8888
+[01/12/2023 08:40:07]: Hostname:	*
+[01/12/2023 08:40:12]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 08:43:35]: version:	1.7
+[01/12/2023 08:43:35]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 08:43:36]: Database:	DataLogger
+[01/12/2023 08:43:37]: API port:	8888
+[01/12/2023 08:43:37]: Hostname:	*
+[01/12/2023 08:43:41]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 08:44:13]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 08:44:40]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 09:38:55]: version:	1.7
+[01/12/2023 09:38:55]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 09:38:56]: Database:	DataLogger
+[01/12/2023 09:38:57]: API port:	8888
+[01/12/2023 09:38:57]: Hostname:	*
+[01/12/2023 09:39:02]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 09:40:35]: version:	1.7
+[01/12/2023 09:40:35]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 09:40:35]: Database:	DataLogger
+[01/12/2023 09:40:36]: API port:	8888
+[01/12/2023 09:40:36]: Hostname:	*
+[01/12/2023 09:40:42]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 09:42:04]: version:	1.7
+[01/12/2023 09:42:04]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 09:42:04]: Database:	DataLogger
+[01/12/2023 09:42:06]: API port:	8888
+[01/12/2023 09:42:06]: Hostname:	*
+[01/12/2023 09:42:08]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 09:43:18]: MQTTnet.Exceptions.MqttCommunicationException: The client is not connected.
+   at MQTTnet.Client.MqttClient.ThrowNotConnected()
+   at MQTTnet.Client.MqttClient.PublishAsync(MqttApplicationMessage applicationMessage, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishBinaryAsync(IMqttClient mqttClient, String topic, IEnumerable`1 payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishStringAsync(IMqttClient mqttClient, String topic, String payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at DataLogger_NetCore.MQTT.HandleMQTT.sendCommand(String device_id, String command) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 199
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 120
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 09:44:23]: version:	1.7
+[01/12/2023 09:44:23]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 09:44:23]: Database:	DataLogger
+[01/12/2023 09:44:25]: API port:	8888
+[01/12/2023 09:44:25]: Hostname:	*
+[01/12/2023 09:44:30]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 09:45:01]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 09:47:31]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 09:49:08]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 09:58:58]: version:	1.7
+[01/12/2023 09:58:59]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 09:58:59]: Database:	DataLogger
+[01/12/2023 09:59:00]: API port:	8888
+[01/12/2023 09:59:00]: Hostname:	*
+[01/12/2023 09:59:17]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:01:30]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:02:48]: MQTTnet.Exceptions.MqttCommunicationException: The client is not connected.
+   at MQTTnet.Client.MqttClient.ThrowNotConnected()
+   at MQTTnet.Client.MqttClient.PublishAsync(MqttApplicationMessage applicationMessage, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishBinaryAsync(IMqttClient mqttClient, String topic, IEnumerable`1 payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishStringAsync(IMqttClient mqttClient, String topic, String payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at DataLogger_NetCore.MQTT.HandleMQTT.sendCommand(String device_id, String command) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 199
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 120
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:04:17]: version:	1.7
+[01/12/2023 10:04:17]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 10:04:17]: Database:	DataLogger
+[01/12/2023 10:04:18]: API port:	8888
+[01/12/2023 10:04:18]: Hostname:	*
+[01/12/2023 10:04:24]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:04:56]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:05:27]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:05:37]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:06:03]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:09:59]: version:	1.7
+[01/12/2023 10:09:59]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 10:09:59]: Database:	DataLogger
+[01/12/2023 10:10:01]: API port:	8888
+[01/12/2023 10:10:01]: Hostname:	*
+[01/12/2023 10:10:04]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:10:26]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:11:16]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:14:32]: version:	1.7
+[01/12/2023 10:14:32]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 10:14:33]: Database:	DataLogger
+[01/12/2023 10:14:34]: API port:	8888
+[01/12/2023 10:14:34]: Hostname:	*
+[01/12/2023 10:14:43]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:16:18]: version:	1.7
+[01/12/2023 10:16:18]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 10:16:19]: Database:	DataLogger
+[01/12/2023 10:16:20]: API port:	8888
+[01/12/2023 10:16:20]: Hostname:	*
+[01/12/2023 10:16:27]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:17:52]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:21:33]: version:	1.7
+[01/12/2023 10:21:33]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 10:21:33]: Database:	DataLogger
+[01/12/2023 10:21:34]: API port:	8888
+[01/12/2023 10:21:34]: Hostname:	*
+[01/12/2023 10:21:41]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:22:25]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:22:42]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:23:13]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:24:38]: version:	1.7
+[01/12/2023 10:24:39]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 10:24:40]: Database:	DataLogger
+[01/12/2023 10:24:43]: API port:	8888
+[01/12/2023 10:24:43]: Hostname:	*
+[01/12/2023 10:24:47]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:24:50]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:25:11]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:26:31]: version:	1.7
+[01/12/2023 10:26:31]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 10:26:32]: Database:	DataLogger
+[01/12/2023 10:26:35]: API port:	8888
+[01/12/2023 10:26:35]: Hostname:	*
+[01/12/2023 10:26:38]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:26:41]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:26:57]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:27:21]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:55:44]: version:	1.7
+[01/12/2023 10:55:44]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 10:55:44]: Database:	DataLogger
+[01/12/2023 10:55:45]: API port:	8888
+[01/12/2023 10:55:45]: Hostname:	*
+[01/12/2023 10:55:55]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[01/12/2023 10:58:40]: version:	1.7
+[01/12/2023 10:58:40]: MongoDB:	mongodb://localhost:27017
+[01/12/2023 10:58:41]: Database:	DataLogger
+[01/12/2023 10:58:42]: API port:	8888
+[01/12/2023 10:58:42]: Hostname:	*
+[02/12/2023 17:17:25]: version:	1.7
+[02/12/2023 17:17:25]: MongoDB:	mongodb://localhost:27017
+[02/12/2023 17:17:26]: Database:	DataLogger
+[02/12/2023 17:17:28]: API port:	8888
+[02/12/2023 17:17:28]: Hostname:	*
+[02/12/2023 17:20:04]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:20:14]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:29:13]: version:	1.7
+[02/12/2023 17:29:13]: MongoDB:	mongodb://localhost:27017
+[02/12/2023 17:29:13]: Database:	DataLogger
+[02/12/2023 17:29:15]: API port:	8888
+[02/12/2023 17:29:15]: Hostname:	*
+[02/12/2023 17:29:20]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:37:40]: version:	1.7
+[02/12/2023 17:37:40]: MongoDB:	mongodb://localhost:27017
+[02/12/2023 17:37:40]: Database:	DataLogger
+[02/12/2023 17:37:41]: API port:	8888
+[02/12/2023 17:37:41]: Hostname:	*
+[02/12/2023 17:38:02]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:38:47]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:39:44]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:40:56]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:43:16]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:46:09]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:48:12]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:49:40]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:54:59]: version:	1.7
+[02/12/2023 17:54:59]: MongoDB:	mongodb://localhost:27017
+[02/12/2023 17:54:59]: Database:	DataLogger
+[02/12/2023 17:55:00]: API port:	8888
+[02/12/2023 17:55:00]: Hostname:	*
+[02/12/2023 17:55:39]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 17:56:07]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 18:00:04]: version:	1.7
+[02/12/2023 18:00:04]: MongoDB:	mongodb://localhost:27017
+[02/12/2023 18:00:05]: Database:	DataLogger
+[02/12/2023 18:00:06]: API port:	8888
+[02/12/2023 18:00:06]: Hostname:	*
+[02/12/2023 18:00:27]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 18:02:11]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 18:02:49]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[02/12/2023 18:05:35]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:24:24]: version:	1.7
+[03/12/2023 19:24:24]: MongoDB:	mongodb://localhost:27017
+[03/12/2023 19:24:25]: Database:	DataLogger
+[03/12/2023 19:24:27]: API port:	8888
+[03/12/2023 19:24:27]: Hostname:	*
+[03/12/2023 19:25:32]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:25:44]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:26:35]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:28:48]: MQTTnet.Exceptions.MqttCommunicationException: The client is not connected.
+   at MQTTnet.Client.MqttClient.ThrowNotConnected()
+   at MQTTnet.Client.MqttClient.PublishAsync(MqttApplicationMessage applicationMessage, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishBinaryAsync(IMqttClient mqttClient, String topic, IEnumerable`1 payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishStringAsync(IMqttClient mqttClient, String topic, String payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at DataLogger_NetCore.MQTT.HandleMQTT.sendCommand(String device_id, String command) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 199
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 120
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:32:53]: version:	1.7
+[03/12/2023 19:32:53]: MongoDB:	mongodb://localhost:27017
+[03/12/2023 19:32:54]: Database:	DataLogger
+[03/12/2023 19:32:56]: API port:	8888
+[03/12/2023 19:32:56]: Hostname:	*
+[03/12/2023 19:33:30]: MQTTnet.Exceptions.MqttCommunicationException: The client is not connected.
+   at MQTTnet.Client.MqttClient.ThrowNotConnected()
+   at MQTTnet.Client.MqttClient.PublishAsync(MqttApplicationMessage applicationMessage, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishBinaryAsync(IMqttClient mqttClient, String topic, IEnumerable`1 payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishStringAsync(IMqttClient mqttClient, String topic, String payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at DataLogger_NetCore.MQTT.HandleMQTT.sendCommand(String device_id, String command) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 199
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 120
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:34:16]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:45:53]: version:	1.7
+[03/12/2023 19:45:53]: MongoDB:	mongodb://localhost:27017
+[03/12/2023 19:45:54]: Database:	DataLogger
+[03/12/2023 19:45:56]: API port:	8888
+[03/12/2023 19:45:56]: Hostname:	*
+[03/12/2023 19:46:11]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:47:17]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:48:16]: MQTTnet.Exceptions.MqttCommunicationException: The client is not connected.
+   at MQTTnet.Client.MqttClient.ThrowNotConnected()
+   at MQTTnet.Client.MqttClient.PublishAsync(MqttApplicationMessage applicationMessage, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishBinaryAsync(IMqttClient mqttClient, String topic, IEnumerable`1 payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishStringAsync(IMqttClient mqttClient, String topic, String payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at DataLogger_NetCore.MQTT.HandleMQTT.sendCommand(String device_id, String command) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 199
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 120
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:49:27]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:49:49]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:50:05]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:50:15]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:50:18]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:50:20]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:50:53]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:51:41]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:52:12]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:56:14]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 19:59:12]: version:	1.7
+[03/12/2023 19:59:12]: MongoDB:	mongodb://localhost:27017
+[03/12/2023 19:59:12]: Database:	DataLogger
+[03/12/2023 19:59:14]: API port:	8888
+[03/12/2023 19:59:14]: Hostname:	*
+[03/12/2023 19:59:16]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:03:16]: version:	1.7
+[03/12/2023 20:03:16]: MongoDB:	mongodb://localhost:27017
+[03/12/2023 20:03:16]: Database:	DataLogger
+[03/12/2023 20:03:17]: API port:	8888
+[03/12/2023 20:03:17]: Hostname:	*
+[03/12/2023 20:03:20]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:03:33]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:04:33]: version:	1.7
+[03/12/2023 20:04:33]: MongoDB:	mongodb://localhost:27017
+[03/12/2023 20:04:33]: Database:	DataLogger
+[03/12/2023 20:04:35]: API port:	8888
+[03/12/2023 20:04:35]: Hostname:	*
+[03/12/2023 20:04:39]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:05:03]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:05:33]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:05:43]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:06:14]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:06:36]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:07:12]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:07:35]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:09:12]: version:	1.7
+[03/12/2023 20:09:12]: MongoDB:	mongodb://localhost:27017
+[03/12/2023 20:09:12]: Database:	DataLogger
+[03/12/2023 20:09:13]: API port:	8888
+[03/12/2023 20:09:13]: Hostname:	*
+[03/12/2023 20:09:37]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:13:12]: version:	1.7
+[03/12/2023 20:13:12]: MongoDB:	mongodb://localhost:27017
+[03/12/2023 20:13:12]: Database:	DataLogger
+[03/12/2023 20:13:14]: API port:	8888
+[03/12/2023 20:13:14]: Hostname:	*
+[03/12/2023 20:13:19]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:14:15]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:14:59]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[03/12/2023 20:15:46]: version:	1.7
+[03/12/2023 20:15:46]: MongoDB:	mongodb://localhost:27017
+[03/12/2023 20:15:47]: Database:	DataLogger
+[03/12/2023 20:15:48]: API port:	8888
+[03/12/2023 20:15:48]: Hostname:	*
+[03/12/2023 20:15:56]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:01:51]: version:	1.7
+[04/12/2023 12:01:51]: MongoDB:	mongodb://localhost:27017
+[04/12/2023 12:01:52]: Database:	DataLogger
+[04/12/2023 12:01:53]: API port:	8888
+[04/12/2023 12:01:53]: Hostname:	*
+[04/12/2023 12:03:59]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:04:36]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:04:41]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:04:47]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:04:54]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:05:28]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:05:33]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:05:41]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:05:46]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:05:51]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:05:58]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[04/12/2023 12:10:18]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 06:05:24]: version:	1.7
+[05/12/2023 06:05:24]: MongoDB:	mongodb://localhost:27017
+[05/12/2023 06:05:25]: Database:	DataLogger
+[05/12/2023 06:05:28]: API port:	8888
+[05/12/2023 06:05:28]: Hostname:	*
+[05/12/2023 06:07:05]: version:	1.7
+[05/12/2023 06:07:05]: MongoDB:	mongodb://localhost:27017
+[05/12/2023 06:07:05]: Database:	DataLogger
+[05/12/2023 06:07:07]: API port:	8888
+[05/12/2023 06:07:07]: Hostname:	*
+[05/12/2023 06:07:52]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 06:10:35]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 06:21:39]: version:	1.7
+[05/12/2023 06:21:39]: MongoDB:	mongodb://localhost:27017
+[05/12/2023 06:21:40]: Database:	DataLogger
+[05/12/2023 06:21:41]: API port:	8888
+[05/12/2023 06:21:41]: Hostname:	*
+[05/12/2023 06:22:02]: version:	1.7
+[05/12/2023 06:22:02]: MongoDB:	mongodb://localhost:27017
+[05/12/2023 06:22:03]: Database:	DataLogger
+[05/12/2023 06:22:04]: API port:	8888
+[05/12/2023 06:22:04]: Hostname:	*
+[05/12/2023 06:22:35]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 06:23:02]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 06:38:35]: version:	1.7
+[05/12/2023 06:38:35]: MongoDB:	mongodb://localhost:27017
+[05/12/2023 06:38:36]: Database:	DataLogger
+[05/12/2023 06:38:38]: API port:	8888
+[05/12/2023 06:38:38]: Hostname:	*
+[05/12/2023 06:38:46]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 06:39:18]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 06:55:17]: version:	1.7
+[05/12/2023 06:55:17]: MongoDB:	mongodb://localhost:27017
+[05/12/2023 06:55:18]: Database:	DataLogger
+[05/12/2023 06:55:19]: API port:	8888
+[05/12/2023 06:55:19]: Hostname:	*
+[05/12/2023 06:55:26]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 06:55:35]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:04:16]: version:	1.7
+[05/12/2023 07:04:16]: MongoDB:	mongodb://localhost:27017
+[05/12/2023 07:04:17]: Database:	DataLogger
+[05/12/2023 07:04:18]: API port:	8888
+[05/12/2023 07:04:18]: Hostname:	*
+[05/12/2023 07:04:35]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:04:53]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:05:19]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:06:35]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:07:48]: version:	1.7
+[05/12/2023 07:07:48]: MongoDB:	mongodb://localhost:27017
+[05/12/2023 07:07:49]: Database:	DataLogger
+[05/12/2023 07:07:50]: API port:	8888
+[05/12/2023 07:07:50]: Hostname:	*
+[05/12/2023 07:07:53]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:07:58]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:09:22]: MQTTnet.Exceptions.MqttCommunicationException: The client is not connected.
+   at MQTTnet.Client.MqttClient.ThrowNotConnected()
+   at MQTTnet.Client.MqttClient.PublishAsync(MqttApplicationMessage applicationMessage, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishBinaryAsync(IMqttClient mqttClient, String topic, IEnumerable`1 payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at MQTTnet.Client.MqttClientExtensions.PublishStringAsync(IMqttClient mqttClient, String topic, String payload, MqttQualityOfServiceLevel qualityOfServiceLevel, Boolean retain, CancellationToken cancellationToken)
+   at DataLogger_NetCore.MQTT.HandleMQTT.sendCommand(String device_id, String command) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 199
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 120
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:10:17]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:17:36]: version:	1.7
+[05/12/2023 07:17:36]: MongoDB:	mongodb://localhost:27017
+[05/12/2023 07:17:36]: Database:	DataLogger
+[05/12/2023 07:17:37]: API port:	8888
+[05/12/2023 07:17:37]: Hostname:	*
+[05/12/2023 07:18:53]: version:	1.7
+[05/12/2023 07:18:53]: MongoDB:	mongodb://localhost:27017
+[05/12/2023 07:18:54]: Database:	DataLogger
+[05/12/2023 07:18:55]: API port:	8888
+[05/12/2023 07:18:55]: Hostname:	*
+[05/12/2023 07:19:09]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:26:56]: version:	1.7
+[05/12/2023 07:26:56]: MongoDB:	mongodb://localhost:27017
+[05/12/2023 07:26:56]: Database:	DataLogger
+[05/12/2023 07:26:58]: API port:	8888
+[05/12/2023 07:26:58]: Hostname:	*
+[05/12/2023 07:27:01]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:27:54]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:28:20]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:28:47]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:29:04]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:29:42]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:33:14]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:33:35]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:33:49]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:34:01]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:34:05]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31
+[05/12/2023 07:34:29]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataLogger_NetCore.MQTT.HandleMQTT.updateData(String id, String mqttData) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 173
+   at DataLogger_NetCore.MQTT.HandleMQTT.handleMsg(MqttApplicationMessageReceivedEventArgs e) in D:\AIThings_White_Backend\DataLogger_NetCore\MQTT\HandleMQTT.cs:line 31

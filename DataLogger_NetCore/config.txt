@@ -1,0 +1,8 @@
+version:	1.0
+API port:	8888
+Admin account:	admin@aithings	admin
+Check status(s):	3
+MongoDB Connection:	mongodb://localhost:27017
+Database:	DoAn2_aithings
+Hostname:	*
+Project:	doan2
